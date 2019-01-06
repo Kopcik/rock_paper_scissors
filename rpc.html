@@ -1,0 +1,72 @@
+<!--
+    Icone sorce: https://www.iconfinder.com
+    Stylesheet sorce: https://cdnjs.cloudflare.com
+    Fonts sorce: https://fonts.googleapis.com
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <link rel="icon" href="iconfinder_Pokemon_Mini_game_3151568 (1).png"/>      
+        <meta charset="utf-8"/>
+        <title>PROJECT: ROCK PAPER SCISSORS</title>
+        <link rel="stylesheet" href="rpc.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+        
+    </head>
+    
+    <body>
+        <div id="container">
+            <section id="header">
+                <h1>...Rock Paper Scissors War...</h1>
+
+                <p> <span>Sequence</span>: Choice your tool by clicking the icon below. First to <span>5 points</span> wins.</p>
+            </section>
+            
+            <section id="sb">
+                <h2 id="sb-player">0</h2>
+                <h2 id="sb-computer">0</h2>
+            </section>
+
+            <section id="game-display">
+                <div id="player-display">
+                    <h3>HUMAN</h3>
+                    <i  id="player-weapon"></i>
+                </div>
+                
+                <div id="computer-display">
+                    <i  id="computer-weapon"></i>
+                    <h3>COMPUTER</h3>
+                </div>
+            </section>
+            
+            <section id="results">
+                <p id = "results-display">Round 1! Start the war!</p>
+            </section>
+            
+            <section id="choose-weapon">
+                <h4>Choice your tool</h4>
+                <div id="weapon-box">
+                    <i id="rock" class="weapon rock fa fa-hand-rock-o"></i>
+                    <i id="paper" class="weapon paper fa fa-hand-paper-o"></i>
+                    <i id="scissors" class="weapon scissors fa fa-hand-peace-o"></i>
+                </div>
+            </section>
+            
+            <section id="reset">
+                <button id="reset-button" class="button reset">Next Round</button>
+                <button id="reset-game" class="button reset">Click to Reset Game</button>
+            </section>
+            
+            
+            <section id="footer">
+                    <p id="name">Rock, Paper, Scissors Game © 2019</p>
+                    <p id="codeby">Developed by Patrik Kopčík</p>
+            </section>
+        </div>
+
+        <script type="text/javascript" src="rpc.js"></script>    
+    </body>
+</html>
